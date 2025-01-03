@@ -21,7 +21,7 @@ Background Photo by <a href="https://unsplash.com/@impatrickt?utm_source=unsplas
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Thanks to [CodeBucks]<a href="https://github.com/codebucks27"> for helping me to make this portfolio.
+Thanks to <a href="https://github.com/codebucks27">CodeBucks</a> for helping me to make this portfolio.
 
 ## Available Scripts
 
