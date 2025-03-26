@@ -21,7 +21,11 @@ Background Photo by <a href="https://unsplash.com/@impatrickt?utm_source=unsplas
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<<<<<<< HEAD
 Thanks to <a href="https://github.com/codebucks27">CodeBucks</a> for helping me to make this portfolio.
+=======
+Thanks to <a href="https://github.com/codebucks27">CodeBucks for such making this great portfolio.
+>>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
 
 ## Available Scripts
 

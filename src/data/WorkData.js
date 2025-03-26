@@ -57,4 +57,32 @@ export const Work = [
     demo: "https://blogging-app-jhai.vercel.app/",
     github: "https://github.com/wittysam8382/blogging-app",
   },
+<<<<<<< HEAD
+=======
+  {
+    id: 7,
+    name: "Movie Recommendation",
+    description: "A site recommending movies",
+    tags: ["machine-learning", "pandas", "scikit-learn"],
+
+    demo: "https://github.com/wittysam8382/movie-recommendation-system",
+    github: "https://github.com/wittysam8382/movie-recommendation-system",
+  },
+  {
+    id: 8,
+    name: "Job Scraper",
+    description: "A site for scraping the jobs from naukri",
+    tags: [
+      "full-stack",
+      "selenium",
+      "beautifulsoup",
+      "python",
+      "django",
+      "react",
+    ],
+
+    demo: "https://github.com/wittysam8382/movie-recommendation-system",
+    github: "https://github.com/wittysam8382/backend_jobScraper",
+  },
+>>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
 ]; 
