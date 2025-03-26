@@ -94,11 +94,7 @@ const MySkillsPage = () => {
             <Title>
               <Develope width={40} height={40} /> Technical
             </Title>
-<<<<<<< HEAD
             <Description>
-=======
-            <Description color='red' highlight="yellow">
->>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
               I love to create design which speaks, Keep it clean, minimal and
               simple.
             </Description>
@@ -108,11 +104,7 @@ const MySkillsPage = () => {
                 <li>Programming Languages: C++, JavaScript, Python</li>
                 <li>Database and Query Language: SQL, MongoDB</li>
                 <li>
-<<<<<<< HEAD
-                  Frameworks and Libraries: React.js, Express.js, Node.js,
-=======
                   Frameworks and Libraries: React.js, Express.js, Node.js, DJango,
->>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
                   Bootstrap
                 </li>
                 <li>

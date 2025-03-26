@@ -15,29 +15,14 @@ import BigTitlte from "../subComponents/BigTitlte";
 const Box = styled.div`
   background-color: ${(props) => props.theme.body};
 
-<<<<<<< HEAD
-  height: 400vh;
-  position: relative;
-  display: flex;
-=======
   min-height: 400vh;
   position: relative;
   display: flex;
   flex-direction: column;
->>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
   align-items: center;
 `;
 
 const Main = styled(motion.ul)`
-<<<<<<< HEAD
-  position: fixed;
-  top: 12rem;
-  left: calc(10rem + 15vw);
-  height: 40vh;
-  display: flex;
-
-  color: white;
-=======
   position: absolute;
   top: 12rem;
   width: 80vw;
@@ -53,7 +38,6 @@ const Main = styled(motion.ul)`
     margin-left: 1rem;
     width: 90vw;
   }
->>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
 `;
 const Rotate = styled.span`
   display: block;
@@ -79,7 +63,6 @@ const container = {
 };
 
 const WorkPage = () => {
-<<<<<<< HEAD
   const ref = useRef(null);
   const yinyang = useRef(null);
 
@@ -91,17 +74,6 @@ const WorkPage = () => {
 
       return (yinyang.current.style.transform =
         "rotate(" + -window.pageYOffset + "deg)");
-=======
-  const yinyang = useRef(null);
-
-  useEffect(() => {
-   
-
-    const rotate = () => {
-      yinyang.current.style.transform =
-        "rotate(" + -window.pageYOffset + "deg)";
-
->>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
     };
 
     window.addEventListener("scroll", rotate);
@@ -117,11 +89,7 @@ const WorkPage = () => {
         <SocialIcons theme="dark" />
         <PowerButton />
 
-<<<<<<< HEAD
-        <Main ref={ref} variants={container} initial="hidden" animate="show">
-=======
         <Main variants={container} initial="hidden" animate="show">
->>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
           {Work.map((d) => (
             <Card key={d.id} data={d} />
           ))}
@@ -130,11 +98,7 @@ const WorkPage = () => {
           <YinYang width={80} height={80} fill={DarkTheme.text} />
         </Rotate>
 
-<<<<<<< HEAD
-        <BigTitlte text="WORK" top="10%" right="20%" />
-=======
         <BigTitlte text="PROJECTS" top="10%" right="20%" />
->>>>>>> ace8656 (Updated WorkPage layout to vertical scroll and new projects)
       </Box>
     </ThemeProvider>
   );
